@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+
+.container {
+    width: 90%;
+    margin-left:150px;
+}
+
+.head {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(182, 178, 178);
+    box-shadow: 0px 10px 6px rgb(63, 62, 62);
+    margin-bottom: 10px;
+    display: flex;
+}
+
+/* logo */
+.logo {
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 160px;
+    font-size: 40px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 26px;
+
+    padding-left: 300px;
+    padding-top: 25px;
+}
+
+li {
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+/*container----------------------------------*/
+.contant-audios{
+    width: 90%;
+    margin: auto;
+    height: 800px;
+}
+
+.contant-audios audio{
+    width: 30%;
+    margin: 50px;
+}
